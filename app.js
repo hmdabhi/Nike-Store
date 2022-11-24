@@ -117,7 +117,7 @@ const toNav =document.querySelectorAll(".tonav");
 // console.log(toNav)
 toNav.forEach((item, index) => {
     item.addEventListener("click", () => {
-        var elem = document.getElementById("nav");
+        var elem = document.getElementById("slider");
                 elem.scrollIntoView();
         wrapper.style.transform = `translateX(${-100 * index}vw)`;
         choosenProduct = products[index]
